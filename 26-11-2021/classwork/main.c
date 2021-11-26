@@ -1,29 +1,39 @@
 #include <stdio.h>
 #include <malloc.h>
 
-int p[] = {5000, 2000, 1000, 500, 200, 100, 50, 20, 10, 5, 2};
-
 int main(void) {
+    int p1[] = {5000, 2000, 200};
+    int *p2 = calloc(sizeof(int), 12);
+
     int c;
     if (scanf("%d", &c) != 1) {
         printf("Chyba!\n");
     }
 
-    int *v = calloc(sizeof(int), 12);
-    for (int i = 0; i < 11; i++) {
-        if (c >= p[i]) {
-            v[i] = c / p[i];
-            c %= p[i];
+    p2[0] = p1[0];
+    int j = 1;
+    for (int i = 0; i < 3; i++) {
+        int x = p1[i];
+        while (x > 0) {
+            if (x / 1000 == 5) {
+                x = 2000;
+            } else if (x / 100 == 5) {
+                x = 200;
+            } else if (x / 10 == 5) {
+                x = 20;
+            } else {
+                x /= 2;
+            }
+
+            p2[j++] = x;
         }
     }
-    v[11] = c;
 
     for (int i = 0; i < 11; i++) {
-        if (v[i]) {
-            printf("%4d Kč ........ %d\n", p[i], v[i]);
+        if (c >= p2[i]) {
+            printf("%4d Kč ........ %d\n", p2[i], c / p2[i]);
+            c %= p2[i];
         }
     }
-    if (v[11]) {
-        printf("%4d Kč ........ %d\n", 1, v[11]);
-    }
+    printf("%4d Kč ........ %d\n", 1, c);
 }
