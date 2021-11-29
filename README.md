@@ -8,3 +8,6 @@ This repository contains solutions for tasks in classes or homeworks.
 * [November 17, 2021](/12-11-2021) <sup>classwork</sup>
 * [November 26, 2021](/26-11-2021/homework) <sup>homework</sup>
 * [November 26, 2021](/26-11-2021/classwork) <sup>classwork</sup>
+
+### December
+* [December 3, 2021](/03-12-2021) <sup>homework</sup>
