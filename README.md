@@ -1,21 +1,31 @@
 # ÚJOP IT assignments
+
 This repository contains solutions for tasks in classes or homeworks.
 
 ## 2021
+
 ### November
-* [November 12, 2021](/12-11-2021) <sup>classwork</sup>
-* [November 17, 2021](/17-11-2021) <sup>homework</sup>
-* [November 26, 2021](/26-11-2021/classwork) <sup>classwork</sup>
-* [November 26, 2021](/26-11-2021/homework) <sup>homework</sup>
+
+* [November 12, 2021](/by-date/2021/11/12) <sup>classwork</sup>
+* [November 17, 2021](/by-date/2021/11/17) <sup>homework</sup>
+* [November 26, 2021](/by-date/2021/11/26/classwork) <sup>classwork</sup>
+* [November 26, 2021](/by-date/2021/11/26/homework) <sup>homework</sup>
 
 ### December
-* [December 3, 2021](/03-12-2021/classwork) <sup>classwork</sup>
-* [December 3, 2021](/03-12-2021/homework) <sup>homework</sup>
-* [December 10, 2021](/10-12-2021) <sup>classwork</sup>
-* [December 14, 2021](/14-12-2021) <sup>classwork</sup>
-* [December 17, 2021](/17-12-2021) <sup>homework</sup>
+
+* [December 3, 2021](/by-date/2021/12/03/classwork) <sup>classwork</sup>
+* [December 3, 2021](/by-date/2021/12/03/homework) <sup>homework</sup>
+* [December 10, 2021](/by-date/2021/12/10) <sup>classwork</sup>
+* [December 14, 2021](/by-date/2021/12/14) <sup>classwork</sup>
+* [December 17, 2021](/by-date/2021/12/17) <sup>homework</sup>
 
 ## 2022
+
 ### January
-* [January 2, 2022](/02-01-2022) <sup>homework</sup>
-* [January 14, 2022](/14-01-2022) <sup>classwork</sup>
+
+* [January 2, 2022](/by-date/2022/01/02) <sup>homework</sup>
+* [January 14, 2022](/by-date/2022/01/14) <sup>classwork</sup>
+
+### February
+
+* [February 24, 2022](/by-date/2022/02/24) <sup>classworkd</sup>

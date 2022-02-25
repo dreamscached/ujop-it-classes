@@ -1,8 +1,8 @@
+# CLion project directory
+/.idea
+
 # CMake build directories
-cmake-build-*
+/assignment/*/cmake-build-*
 
 # CMakeLists.txt
-CMakeLists.txt
-
-# CLion project directory
-.idea
+/assignments/*/CMakeLists.txt
