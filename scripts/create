@@ -1,0 +1,11 @@
+#!/bin/sh
+# shellcheck disable=SC1007
+prefix="$(CDPATH= cd -- "$(dirname -- "$0")" && dirname "$(dir)")"
+
+project="$prefix/by-date/$(LC_ALL=C date +"%Y/%m")"
+mkdir -p "$project"
+project="$project/$(LC_ALL=C date +"%d")"
+
+cp -r "$prefix/template" "$prefix/$project"
+
+echo "New assignment created in $project."
