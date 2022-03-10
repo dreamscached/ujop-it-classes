@@ -2,7 +2,7 @@
 /.idea
 
 # CMake build directories
-/assignment/*/cmake-build-*
+/**/cmake-build-*
 
 # CMakeLists.txt
-/assignments/*/CMakeLists.txt
+/**/CMakeLists.txt
