@@ -31,4 +31,10 @@ This repository contains solutions for tasks in classes or homeworks.
 
 ### April
 
-* [April 28, 2022](/by-date/2022/04/28)
+* [April 28, 2022](/by-date/2022/04/28) <sup>classwork</sup>
+
+
+###  May
+
+* [May 5, 2022](/by-date/2022/05/05) <sup>classwork</sup>
+* [May 12, 2022](/by-date/2022/05/12) <sup>classwork</sup>
